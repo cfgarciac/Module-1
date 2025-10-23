@@ -53,13 +53,13 @@ El proyecto aplica un flujo completo de ciencia de datos, desde la exploración 
 ## Configuración del Entorno
 
 ### Clonar el repositorio
-```bash
+
 git clone https://github.com/cfgarciac/Module-1.git
 cd Module-1
 
 
 ### Crear entorno virtual
-```bash
+
   python -m venv .venv
 
 ### Activar entorno
@@ -75,42 +75,43 @@ Agregar la clave personal de la API de Yelp:
 
 ## Desarrollo por Fases
 
-Avance 1 – EDA: análisis exploratorio y limpieza de la base de clientes. (Notebook: 1.0-cfg-EDA.ipynb)
-Avance 2 – Integración Yelp: conexión con la API, extracción y normalización de datos externos. (Notebook: 2.0-cfg-API_Yelp.ipynb)
-Avance 3 – Análisis e interpretación: visualizaciones, correlaciones y conclusiones del comportamiento del cliente. (Notebook: 3.0-cfg-Analisis_Interpretacion.ipynb)
+- Avance 1 – EDA: análisis exploratorio y limpieza de la base de clientes. (Notebook: 1.0-cfg-EDA.ipynb)
+- Avance 2 – Integración Yelp: conexión con la API, extracción y normalización de datos externos. (Notebook: 2.0-cfg-API_Yelp.ipynb)
+- Avance 3 – Análisis e interpretación: visualizaciones, correlaciones y conclusiones del comportamiento del cliente. (Notebook: 3.0-cfg-Analisis_Interpretacion.ipynb)
 
 ## Principales Resultados
 
-Miami se posiciona como el mercado más rentable, con el mayor gasto promedio mensual y la mayor proporción de membresías premium (~53%).
-Los estratos alto y muy alto concentran los mayores niveles de gasto, sin requerir alta frecuencia de visita.
+- Miami se posiciona como el mercado más rentable, con el mayor gasto promedio mensual y la mayor proporción de membresías premium (~53%).
+- Los estratos alto y muy alto concentran los mayores niveles de gasto, sin requerir alta frecuencia de visita.
 Existe una correlación positiva (r = 0.64) entre los ingresos mensuales y el gasto promedio en restaurantes.
-Las preferencias alimenticias se distribuyen principalmente entre Carnes (27%) y Vegetariano (23%), mostrando interés por opciones saludables.
-Los clientes premium son adultos con ingresos altos y hábitos de consumo selectivos, representando un segmento ideal para programas de fidelización.
+- Las preferencias alimenticias se distribuyen principalmente entre Carnes (27%) y Vegetariano (23%), mostrando interés por opciones saludables.
+- Los clientes premium son adultos con ingresos altos y hábitos de consumo selectivos, representando un segmento ideal para programas de fidelización.
 
 ## Conclusiones
 
-Miami, San Diego y Seattle destacan como los mercados con mayor potencial comercial.
-La frecuencia de visita no necesariamente determina el gasto: los clientes de alto poder adquisitivo priorizan la calidad sobre la cantidad.
-Las estrategias de negocio deben basarse en segmentación geográfica y socioeconómica.
-Las tendencias saludables representan oportunidades de crecimiento en todos los estratos.
-Se recomienda implementar análisis predictivos para anticipar el comportamiento de compra y la propensión a membresías premium.
+- Miami, San Diego y Seattle destacan como los mercados con mayor potencial comercial.
+- La frecuencia de visita no necesariamente determina el gasto: los clientes de alto poder adquisitivo priorizan la calidad sobre la cantidad.
+- Las estrategias de negocio deben basarse en segmentación geográfica y socioeconómica.
+- Las tendencias saludables representan oportunidades de crecimiento en todos los estratos.
+- Se recomienda implementar análisis predictivos para anticipar el comportamiento de compra y la propensión a membresías premium.
 
 ## Próximos Pasos
 
-Integrar nuevas fuentes de datos (reseñas, clima, tendencias locales).
-Desarrollar modelos predictivos de gasto y fidelización.
-Construir dashboards interactivos con Power BI o Streamlit para la toma de decisiones.
+- Integrar nuevas fuentes de datos (reseñas, clima, tendencias locales).
+- Desarrollar modelos predictivos de gasto y fidelización.
+- Construir dashboards interactivos con Power BI o Streamlit para la toma de decisiones.
 
 ## Tecnologías Utilizadas
 
-Lenguaje: Python (3.10+)
-Librerías: Pandas, NumPy, Matplotlib, Seaborn, Requests, Dotenv
-Entorno: Jupyter Notebooks
-Control de versiones: Git y GitHub
+- Lenguaje: Python (3.10+)
+- Librerías: Pandas, NumPy, Matplotlib, Seaborn, Requests, Dotenv
+- Entorno: Jupyter Notebooks
+- Control de versiones: Git y GitHub
 
 ## Autor
 
 Cristian García
 Correo: cfgarciac@unal.edu.co
+LinkedIn: https://www.linkedin.com/in/cfgarciac/
 
 Versión: 1.0 – Octubre 2025
