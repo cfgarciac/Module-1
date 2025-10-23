@@ -18,7 +18,7 @@ El proyecto aplica un flujo completo de ciencia de datos, desde la exploración 
 ---
 
 ## Estructura del Proyecto
-
+```
 ├── LICENSE
 ├── README.md
 │
@@ -47,7 +47,7 @@ El proyecto aplica un flujo completo de ciencia de datos, desde la exploración 
 ├── plots.py
 └── services/
 └── init.py
-
+```
 ---
 
 ## Configuración del Entorno
