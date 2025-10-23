@@ -68,16 +68,15 @@ cd Module-1
 ### Instalar dependencias
   pip install -r requirements.txt
 
-Configurar variables de entorno
-Duplicar el archivo .env.example y renombrarlo como .env
-Agregar la clave personal de la API de Yelp:
-  YELP_API_KEY=tu_clave_aquí
+---
 
 ## Desarrollo por Fases
 
 - Avance 1 – EDA: análisis exploratorio y limpieza de la base de clientes. (Notebook: 1.0-cfg-EDA.ipynb)
 - Avance 2 – Integración Yelp: conexión con la API, extracción y normalización de datos externos. (Notebook: 2.0-cfg-API_Yelp.ipynb)
 - Avance 3 – Análisis e interpretación: visualizaciones, correlaciones y conclusiones del comportamiento del cliente. (Notebook: 3.0-cfg-Analisis_Interpretacion.ipynb)
+
+--- 
 
 ## Principales Resultados
 
@@ -87,6 +86,8 @@ Existe una correlación positiva (r = 0.64) entre los ingresos mensuales y el ga
 - Las preferencias alimenticias se distribuyen principalmente entre Carnes (27%) y Vegetariano (23%), mostrando interés por opciones saludables.
 - Los clientes premium son adultos con ingresos altos y hábitos de consumo selectivos, representando un segmento ideal para programas de fidelización.
 
+---
+
 ## Conclusiones
 
 - Miami, San Diego y Seattle destacan como los mercados con mayor potencial comercial.
@@ -95,11 +96,15 @@ Existe una correlación positiva (r = 0.64) entre los ingresos mensuales y el ga
 - Las tendencias saludables representan oportunidades de crecimiento en todos los estratos.
 - Se recomienda implementar análisis predictivos para anticipar el comportamiento de compra y la propensión a membresías premium.
 
+---
+
 ## Próximos Pasos
 
 - Integrar nuevas fuentes de datos (reseñas, clima, tendencias locales).
 - Desarrollar modelos predictivos de gasto y fidelización.
 - Construir dashboards interactivos con Power BI o Streamlit para la toma de decisiones.
+
+---
 
 ## Tecnologías Utilizadas
 
@@ -107,6 +112,8 @@ Existe una correlación positiva (r = 0.64) entre los ingresos mensuales y el ga
 - Librerías: Pandas, NumPy, Matplotlib, Seaborn, Requests, Dotenv
 - Entorno: Jupyter Notebooks
 - Control de versiones: Git y GitHub
+
+---
 
 ## Autor
 
